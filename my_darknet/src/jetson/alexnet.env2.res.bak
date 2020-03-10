@@ -1,0 +1,380 @@
+alexnet.env2.is
+1_repeat
+Elapsed Time (GPU): 1814.389 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+1_repeat
+Elapsed Time (GPU): 1683.650 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+1_repeat
+Elapsed Time (GPU): 2961.446 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+1_repeat
+Elapsed Time (GPU): 1450.275 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 145.02750000000000000000
+ 
+alexnet.env2.is
+2_repeat
+Elapsed Time (GPU): 2185.214 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+2_repeat
+Elapsed Time (GPU): 1620.589 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+2_repeat
+Elapsed Time (GPU): 3076.412 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+2_repeat
+Elapsed Time (GPU): 1479.627 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 147.96270000000000000000
+ 
+alexnet.env2.is
+3_repeat
+Elapsed Time (GPU): 2207.376 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+3_repeat
+Elapsed Time (GPU): 1505.636 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+3_repeat
+Elapsed Time (GPU): 2895.450 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+3_repeat
+Elapsed Time (GPU): 1441.680 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 144.16800000000000000000
+ 
+alexnet.env2.is
+4_repeat
+Elapsed Time (GPU): 1715.783 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+4_repeat
+Elapsed Time (GPU): 1556.690 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+4_repeat
+Elapsed Time (GPU): 3037.546 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+4_repeat
+Elapsed Time (GPU): 1456.532 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 145.65320000000000000000
+ 
+alexnet.env2.is
+5_repeat
+Elapsed Time (GPU): 1758.311 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+5_repeat
+Elapsed Time (GPU): 1542.639 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+5_repeat
+Elapsed Time (GPU): 2904.898 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+5_repeat
+Elapsed Time (GPU): 1484.676 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 148.46760000000000000000
+ 
+alexnet.env2.is
+6_repeat
+Elapsed Time (GPU): 1701.110 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+6_repeat
+Elapsed Time (GPU): 1902.339 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+6_repeat
+Elapsed Time (GPU): 3062.277 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+6_repeat
+Elapsed Time (GPU): 1464.453 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 146.44530000000000000000
+ 
+alexnet.env2.is
+7_repeat
+Elapsed Time (GPU): 1612.384 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+7_repeat
+Elapsed Time (GPU): 1585.959 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+7_repeat
+Elapsed Time (GPU): 3072.299 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+7_repeat
+Elapsed Time (GPU): 1488.954 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 148.89540000000000000000
+ 
+alexnet.env2.is
+8_repeat
+Elapsed Time (GPU): 1863.467 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+8_repeat
+Elapsed Time (GPU): 1744.713 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+8_repeat
+Elapsed Time (GPU): 3232.128 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+8_repeat
+Elapsed Time (GPU): 1516.940 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 151.69400000000000000000
+ 
+alexnet.env2.is
+9_repeat
+Elapsed Time (GPU): 1645.485 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+9_repeat
+Elapsed Time (GPU): 1533.356 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+9_repeat
+Elapsed Time (GPU): 2833.336 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+9_repeat
+Elapsed Time (GPU): 1478.474 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 147.84740000000000000000
+ 
+alexnet.env2.is
+10_repeat
+Elapsed Time (GPU): 1803.185 msec
+(18.81%) golfcart
+(10.67%) Siberian husky
+( 9.11%) Great Pyrenees
+( 6.76%) malamute
+( 3.02%) tricycle
+ 
+alexnet.env2.ws
+10_repeat
+Elapsed Time (GPU): 1527.494 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+alexnet.env2.os
+10_repeat
+Elapsed Time (GPU): 2885.626 msec
+(31.40%) golfcart
+( 9.13%) Siberian husky
+( 4.60%) malamute
+( 3.92%) tricycle
+( 3.67%) horse cart
+ 
+alexnet.env2.opt
+10_repeat
+Elapsed Time (GPU): 1458.615 msec
+(19.03%) golfcart
+(18.09%) Siberian husky
+( 7.00%) malamute
+( 6.29%) tricycle
+( 4.17%) Eskimo dog
+ 
+total_time: 145.86150000000000000000
+ 

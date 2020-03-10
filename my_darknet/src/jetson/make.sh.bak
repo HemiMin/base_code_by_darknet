@@ -1,0 +1,100 @@
+#!/bin/bash
+
+#net=(alexnet squeezenet resnet50 vgg16)
+net=(alexnet)
+version=(is ws os opt)
+#version=(is)
+repeat=10
+#env=(env1 env2 env5 env6)
+env=(env2)
+#target=(CUDA CUBLAS)
+target=(CUBLAS)
+
+timeest=0
+
+for t in ${target[@]}
+do
+  for e in ${env[@]}
+  do
+    for n in ${net[@]}
+    do
+      resname=
+      if [ ${t} = "CUBLAS" ];then
+        if [ $timeest = 1 ];then
+          resname=$n.$e.timeest.res
+        else
+          resname=$n.$e.res
+        fi
+      fi
+      if [ ${t} = "CUDA" ];then
+        resname=$n.$e.res.cuda
+      fi
+      rm $resname
+
+      for v in ${version[@]}
+      do
+        total_time=0.0
+        avg_time=0.0
+        echo $n.$e.$v >> $resname
+        for i in $(seq 1 $repeat)
+        do
+          echo ${i}_repeat >> $resname
+          if [ $timeest = 1 ];then
+            make_option="$t=1 net=$n hw=$e version=$v TIME_ESTIMATE=1"
+            cmd="make -j6 $make_option"
+            echo $cmd
+            eval $cmd
+            if [ ${t} = "CUBLAS" ];then
+              cmd="./$n.$e.$v.timeest ../../data/dog.jpg ../../data/$n.weights 5 >> $resname"
+            elif [ ${t} = "CUDA" ];then
+              cmd="./$n.$e.$v.timeest.cuda ../../data/dog.jpg ../../data/$n.weights 5 >> $resname"
+            fi
+            echo $cmd
+            eval ${cmd}
+            echo " " >> $resname
+          else
+            make_option="$t=1 net=$n hw=$e version=$v TIME_ESTIMATE=0"
+            cmd="make -j6 $make_option"
+            echo $cmd
+            eval $cmd
+            if [ ${t} = "CUBLAS" ];then
+              if [ $i = $repeat ];then
+                cmd="./$n.$e.$v ../../data/dog.jpg ../../data/$n.weights 5 | tee -a $resname"
+              else
+                cmd="./$n.$e.$v ../../data/dog.jpg ../../data/$n.weights 5 | tee -a $resname"
+#cmd="./$n.$e.$v ../../data/dog.jpg ../../data/$n.weights 5"
+              fi
+#result=$(./$n.$e.$v ../../data/dog.jpg ../../data/$n.weights 5)
+            elif [ ${t} = "CUDA" ];then
+              if [ $i = $repeat ];then
+                cmd="./$n.$e.$v.cuda ../../data/dog.jpg ../../data/$n.weights 5 | tee -a $resname"
+              else
+                cmd="./$n.$e.$v.cuda ../../data/dog.jpg ../../data/$n.weights 5 | tee -a $resname"
+#cmd="./$n.$e.$v.cuda ../../data/dog.jpg ../../data/$n.weights 5"
+              fi
+#result=$(./$n.$e.$v.cuda ../../data/dog.jpg ../../data/$n.weights 5)
+            fi
+            echo $cmd
+            result=$(eval $cmd)
+#time=$(echo $result | cut -f2 -d "m" | cut -f2 -d ":")
+            time=$(echo $result | cut -f 2 -d "E" | cut -f 2 -d "m" | cut -f 2 -d ":")
+            echo $time
+            total_time=$(echo $total_time+$time|bc)
+            echo " " >> $resname
+          fi
+        done
+          if [ $timeest = 0 ];then
+            avg_time=$(echo $total_time/$repeat.0|bc -l)
+            echo total_time: $avg_time >> $resname
+            echo " " >> $resname
+          fi
+
+      done
+
+    cmd="make $make_option clean"
+    echo $cmd
+    eval $cmd
+
+    done
+  done
+done

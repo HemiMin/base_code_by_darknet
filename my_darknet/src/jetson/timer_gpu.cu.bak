@@ -1,0 +1,26 @@
+#include <cuda.h>
+#include <cuda_runtime.h>
+
+extern void checkCUDA(cudaError_t error);
+
+static cudaEvent_t start, stop;
+
+extern "C" void init_timer(void)
+{
+  checkCUDA(cudaEventCreate(&start));
+  checkCUDA(cudaEventCreate(&stop));
+}
+
+extern "C" void start_timer(void)
+{
+  checkCUDA(cudaEventRecord(start, 0));
+}
+
+extern "C" void stop_timer(float* ms)
+{
+  checkCUDA(cudaEventRecord(stop, 0));
+  checkCUDA(cudaEventSynchronize(stop));
+  checkCUDA(cudaEventElapsedTime(ms, start, stop));
+  checkCUDA(cudaEventDestroy(start));
+  checkCUDA(cudaEventDestroy(stop));
+}
